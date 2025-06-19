@@ -1,0 +1,17 @@
+{
+  "name": "appstore-scraper-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "app-store-scraper": "^0.18.0",
+    "express": "^5.1.0"
+  }
+}
