@@ -125,8 +125,41 @@ Retrieve curated collections from App Store (top charts).
 
 **Query Parameters:**
 
-* `collection`: e.g., `TOP_FREE_IOS`, `TOP_PAID_IOS`, `TOP_FREE_IPAD`, etc.
-* `category`: e.g., `GAMES_ACTION`, `MUSIC`, `ENTERTAINMENT`
+* `collection`:
+
+  * `TOP_FREE_IOS`
+  * `TOP_PAID_IOS`
+  * `TOP_GROSSING_IOS`
+  * `TOP_FREE_IPAD`
+  * `TOP_PAID_IPAD`
+  * `TOP_GROSSING_IPAD`
+* `category` (optional):
+
+  * `BOOKS`
+  * `BUSINESS`
+  * `CATALOGS`
+  * `EDUCATION`
+  * `ENTERTAINMENT`
+  * `FINANCE`
+  * `FOOD_AND_DRINK`
+  * `GAMES_ACTION`, `GAMES_ADVENTURE`, `GAMES_ARCADE`, `GAMES_BOARD`, `GAMES_CARD`, `GAMES_CASINO`, `GAMES_DICE`, `GAMES_EDUCATIONAL`, `GAMES_FAMILY`, `GAMES_MUSIC`, `GAMES_PUZZLE`, `GAMES_RACING`, `GAMES_ROLE_PLAYING`, `GAMES_SIMULATION`, `GAMES_SPORTS`, `GAMES_STRATEGY`, `GAMES_TRIVIA`, `GAMES_WORD`
+  * `HEALTH_AND_FITNESS`
+  * `LIFESTYLE`
+  * `MAGAZINES_AND_NEWSPAPERS`
+  * `MEDICAL`
+  * `MUSIC`
+  * `NAVIGATION`
+  * `NEWS`
+  * `PHOTO_AND_VIDEO`
+  * `PRODUCTIVITY`
+  * `REFERENCE`
+  * `SHOPPING`
+  * `SOCIAL_NETWORKING`
+  * `SPORTS`
+  * `STICKERS`
+  * `TRAVEL`
+  * `UTILITIES`
+  * `WEATHER`
 * `country`, `lang`
 * `num`: Number of apps to fetch (max: 200)
 * `fullDetail`: `true` to enrich each result with full app data
