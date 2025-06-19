@@ -9,6 +9,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "build": {
+    "env": {},
+    "commands": [
+      "npm install"
+    ]
+  },
+  "deploy": {
+    "startCommand": "npm start"
+  },
   "description": "",
   "dependencies": {
     "app-store-scraper": "^0.18.0",
